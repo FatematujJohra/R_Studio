@@ -1,0 +1,11 @@
+#x<-c(5,7,8,7,3,2,3,9,4,11,6,9,12)
+#y<-c(99,88,77,65,45,33,103,85,111,87,22,11,13)
+#plot(x,y)
+#plot(x,y,main="Observation of Cars",xleb="Car age",yleb="Car Speed")
+#compare plot
+x1<-c(1,2,5,3,6,4,10,7,9,8)
+y1<-c(51,65,54,58,60,53,59,52,57,55)
+x2<-c(2,4,6,8,10,12,14,16,18,20)
+y2<-c(91,82,83,87,85,89,86,89,84,90)
+plot(x1,y1,main="Observation of Cars", xleb="Car age",yleb="Car Speed",col="red",cex=2)
+points(x2,y2,col="blue",cex=2)
